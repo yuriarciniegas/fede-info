@@ -70,6 +70,10 @@ development:
 # comando scaffold 
 rails generate scaffold User name:string email:string
 
+# Crear bd
+rake db:create
+
+
 # Correr migraciones 
 rake db:migrate
 
